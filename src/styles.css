@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+#layout {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    height: 100vh;
+}
+
+.right {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+.left {
+    background-color: #D8DEE9;
+}
+
+#info {
+    background-color: #ECEFF4;
+}
+
+nav, #footer {
+    background-color: #4C566A;
+}
+
+.active .left {
+    background-color: #161B22;
+}
+
+.active #info {
+    background-color: #0B0E14;
+}
+
+.active nav, #footer {
+    background-color: #21262D;
+}
