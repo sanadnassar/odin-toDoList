@@ -13,6 +13,5 @@ export class Storage {
     removeProject(id) {
         let newProjects = this.myProjects.filter(project => project.getID() !== id)
         this.myProjects = newProjects;
-        displayProjects();
     }
 }

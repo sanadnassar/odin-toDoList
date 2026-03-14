@@ -22,7 +22,7 @@ body {
 }
 
 nav, #footer {
-    background-color: #4C566A;
+    background-color: #6e798fc2;
 }
 
 .active .left {
@@ -33,10 +33,26 @@ nav, #footer {
     background-color: #0B0E14;
 }
 
-.active nav, #footer {
+.active #footer {
     background-color: #21262D;
 }
 
-.sun-icon { display: none; }
-.active .moon-icon { display: none; }
-.active .sun-icon { display: block; }
+.active nav {
+    background-color: #21262D;
+}
+
+#mode {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.sun-icon {
+    display: none;
+}
+.active .moon-icon {
+    display: none;
+}
+.active .sun-icon {
+    display: block;
+}
