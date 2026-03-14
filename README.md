@@ -2,3 +2,4 @@ This is a to do list app project based on the "The Odin Project | To Do List" ap
 
 
 <a target="_blank" href="https://icons8.com/icon/36612/moon-symbol">Moon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/648/sun">Sun</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
