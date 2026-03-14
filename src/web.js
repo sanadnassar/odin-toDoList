@@ -30,6 +30,10 @@ class Web {
 const myWeb = new Web();
 const myStorage = new Storage();
 
+const defaultProject = new Project("My First Task", "Description here", "2026-03-14", "Low");
+myStorage.addProject(defaultProject);
+myWeb.displayProjects(myStorage.myProjects);
+
 mode.addEventListener("click", ()=> {
     layout.classList.toggle("active");
 })
