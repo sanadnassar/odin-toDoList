@@ -36,3 +36,7 @@ nav, #footer {
 .active nav, #footer {
     background-color: #21262D;
 }
+
+.sun-icon { display: none; }
+.active .moon-icon { display: none; }
+.active .sun-icon { display: block; }
