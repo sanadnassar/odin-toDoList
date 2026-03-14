@@ -8,6 +8,7 @@ const info = document.getElementById("info")
 const modal = document.querySelector("#project-modal");
 const projectForm = modal.querySelector("form");
 const layout = document.getElementById("layout");
+const cancel = document.getElementById("cancel-btn");
 
 class Web {
     displayProjects(projectsArray) {
@@ -47,3 +48,8 @@ projectForm.addEventListener("submit", (e) => {
 add.addEventListener("click", () => {
     modal.showModal();
 });
+
+cancel.addEventListener("click", () => {
+    projectForm.reset();
+    modal.close();
+})
